@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #F4C2C2;
+  --color-brand-pink-dark: #D8A7B1;
+  --color-brand-blue: #AEC6CF;
+  --color-brand-blue-dark: #8A9A5B;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-light: #F3E5AB;
+  --color-brand-crayon: #FDF6E3;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  @apply bg-brand-crayon text-gray-800 font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
